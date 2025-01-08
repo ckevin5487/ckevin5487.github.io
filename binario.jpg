@@ -1,0 +1,372 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <title>Sistema Binario</title>
+<META NAME="Description" content="Sistema binario">
+<META NAME="Keywords" content="cd4024, numeri binari, bit, byte">
+<META NAME="Copyright" content="Elettronici.net">
+<META NAME="revisit-after" content="3">
+<META HTTP-EQUIV="content-language" content="IT">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=utf-8" />
+
+<style type="text/css">
+<!--
+@import url("../Template/stile.css");
+@import url("../Template/styles2.css");
+
+-->
+</style>
+
+<link rel="preload" as="script" href="https://cdn.iubenda.com/cs/iubenda_cs.js"/>
+<link rel="preconnect" href="https://www.iubenda.com"/>
+<link rel="preconnect" href="https://iubenda.mgr.consensu.org"/>
+<link rel="preconnect" href="https://hits-i.iubenda.com"/>
+<link rel="preload" as="script" href="https://cdn.iubenda.com/cs/tcf/stub-v2.js"/>
+<script src="https://cdn.iubenda.com/cs/tcf/stub-v2.js"></script>
+<script>
+(_iub=self._iub||[]).csConfiguration={
+	cookiePolicyId: 332620,
+	siteId: 343664,
+	localConsentDomain: 'electronic.altervista.org',
+	timeoutLoadConfiguration: 30000,
+	lang: 'it',
+	enableTcf: true,
+	tcfVersion: 2,
+	googleAdditionalConsentMode: true,
+	consentOnContinuedBrowsing: false,
+	banner: {
+		position: "bottom",
+		acceptButtonDisplay: true,
+		customizeButtonDisplay: true,
+		closeButtonDisplay: false,
+		fontSizeBody: "14px",
+	},
+}
+</script>
+<script async src="//cdn.iubenda.com/cs/iubenda_cs.js"></script>
+<style>
+@media (max-width: 639px) {
+	#iubenda-cs-banner.iubenda-cs-default .iubenda-cs-rationale {
+		height: 55vh !important;
+		min-height: 320px !important;
+	}
+}
+</style>
+
+
+
+
+</head>
+
+<body>
+
+﻿ 
+<!--Start Cookie Script-->
+<!-- <script type="text/javascript" charset="UTF-8" src="http://chs03.cookie-script.com/s/2ead76fa6c1ed08bda1551fcea481a3b.js"></script>   -->
+<!--End Cookie Script-->
+
+
+
+
+<div id="Header3">
+
+
+
+
+
+
+<div id="HeaderBanner3">
+
+<script type="text/javascript">
+/* <![CDATA[ */
+document.write('<s'+'cript type="text/javascript" src="http://ad.altervista.org/js.ad/size=728X90/?ref='+encodeURIComponent(location.hostname+location.pathname)+'&r='+new Date().getTime()+'"></s'+'cript>');
+/* ]]> */
+</script>
+
+</div>
+
+
+
+
+ <!--
+ <div id="TxtCerca3">
+  <form method="post" action="../Template/Cerca.php">
+  <input type="text"  name="nome" value="Trova" align="middle" >
+   <div id="Cerca">
+  <input type="image" src="../Template/button_cerca.jpg" align="middle">
+   </div>
+ </form>
+ </div>
+ -->
+
+ <div id="TxtCerca3">
+  </div>
+ 
+
+  
+  
+ 
+
+ <div id="HeaderMenu3">
+ 
+ <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+	<script type='text/javascript' src='../Template/menu_jquery.js'></script>
+  <div id='cssmenu'>
+<ul>
+<!-- al posto di class='active', ho sostituito class='has-sub', perchè la class active rende il pulsante scuro -->
+   <li class='has-sub'><a href='http://electronic.altervista.org/index.php'><span>Home</span></a></li>
+   <li class='has-sub'><a href='#'><span>Elettronica</span></a>
+      <ul>
+         <li><a href='http://electronic.altervista.org/elettronica/tensione.php'><span>Tensione e Corrente</span></a></li>
+         <li><a href='http://electronic.altervista.org/elettronica/alternata.php'><span>Continua e Alternata</span></a></li>
+         <li><a href='http://electronic.altervista.org/elettronica/ohm.php'><span>La legge di Ohm</span></a></li>
+         <li><a href='http://electronic.altervista.org/elettronica/resistore.php'><span>Resistore o Resistenza</span></a></li>
+         <li><a href='http://electronic.altervista.org/elettronica/parallelo.php'><span>Serie e Parallelo</span></a></li>
+         <li><a href='http://electronic.altervista.org/elettronica/condensatore.php'><span>Condensatore</span></a></li>
+         <li><a href='http://electronic.altervista.org/elettronica/diodo.php'><span>Diodo</span></a></li>
+         <li><a href='http://electronic.altervista.org/elettronica/zener.php'><span>Diodo Zener</span></a></li>
+         <li><a href='http://electronic.altervista.org/elettronica/raddrizzatore.php'><span>Ponte Raddrizzatore</span></a></li>
+         <li><a href='http://electronic.altervista.org/elettronica/transistor1.php'><span>Transistor parte1</span></a></li>
+         <li><a href='http://electronic.altervista.org/elettronica/transistor2.php'><span>Transistor parte2</span></a></li>
+         <li><a href='http://electronic.altervista.org/elettronica/AmpOp.php'><span>Amp. Operazionale</span></a></li>
+         <li><a href='http://electronic.altervista.org/elettronica/ne555.php'><span>Ne555</span></a></li>
+         <li><a href='http://electronic.altervista.org/elettronica/pwm.php'><span>Pwm</span></a></li>
+         <li><a href='http://electronic.altervista.org/elettronica/cd4017.php'><span>Cd4017</span></a></li>
+          <li><a href='http://electronic.altervista.org/elettronica/porte_logiche.php'><span>Porte Logiche</span></a></li>
+         <li class='last'><a href='http://electronic.altervista.org/elettronica/binario.php'><span>Sistema Binario</span></a></li>
+
+      </ul>
+   </li>
+   <li class='has-sub'><a href='#'><span>Circuiti</span></a>
+      <ul>
+
+         <li><a href='http://electronic.altervista.org/circuiti/alimentatore.php'><span>Alimentatore 12v</span></a></li>
+         <li><a href='http://electronic.altervista.org/circuiti/alimentatore2.php'><span>Alimentatore 5v + 12v</span></a></li>
+         <li><a href='http://electronic.altervista.org/circuiti/alimentatore3.php'><span>Alimentatore variabile</span></a></li>
+         <li><a href='http://electronic.altervista.org/circuiti/temporizzatore.php'><span>Semplice temporizzatore</span></a></li>
+         <li><a href='http://electronic.altervista.org/circuiti/temporizzatore2.php'><span>Temporizzatore2</span></a></li>
+         <li><a href='http://electronic.altervista.org/circuiti/termostato.php'><span>Termostato</span></a></li>
+         <li><a href='http://electronic.altervista.org/circuiti/battery.php'><span>Battery Check</span></a></li>
+       <li><a href='http://electronic.altervista.org/circuiti/crepuscolare.php'><span>Crepuscolare</span></a></li> 
+         <li><a href='http://electronic.altervista.org/circuiti/lampeggiatore.php'><span>Lampeggiatore</span></a></li>
+         <li><a href='http://electronic.altervista.org/circuiti/lampeggiatore2.php'><span>Lampeggiatore Strobo</span></a></li>
+          <li><a href='http://electronic.altervista.org/circuiti/regolatore_pwm.php'><span>Regolatore Pwm</span></a></li>
+		 <li class='last'><a href='http://electronic.altervista.org/circuiti/auto_regolatore.php'><span>Regolatore Automatico</span></a></li>
+      </ul>
+   </li>
+    <li class='has-sub'><a href='http://electronic.altervista.org/guestbook.php'><span>GuestBook</span></a></li>
+
+</ul>
+</div>
+ </div>
+ 
+ 
+
+
+ 
+</div>
+
+
+
+ <div id="Content3">
+ 
+ <div id="Articolo3">
+      <h1 class="titolo">Sistema Binario</h1>
+       
+       <p class="testoindex">Nella vita di tutti i giorni, ci troviamo a dover utilizzare i numeri per i più svariati motivi, abbiamo a disposizione 10 cifre, da cui il nome sistema decimale, con le cifre che vanno da 0 a 9 per poter creare facilmente tutti i numeri che ci occorrono.<br />
+Spesso anche in elettronica è necessario utilizzare un sistema di numeri, ad esempio per trasferire informazione da un integrato ad un altro, e il tutto deve essere fatto attraverso numeri creati con dei segnali elettrici.<br />
+La soluzione più semplice, che qualsiasi dispositivo elettronico è in grado di interpretate, è il segnale on-off, qualsiasi dispositivo elettronico sarà in grado di capire se in un suo ingresso è presente una tensione Vcc oppure una massa Gnd.<br />
+Allo stesso modo in cui siamo in grado di capire se una lampada è accesa o spenta, se un dispositivo è su on o su off, se un interruttore è su 1 o su 0.<br />
+Segnali che in elettronica sono facili da creare ed interpretare,  ma che alla fine possono assumere solo 2 valori, 1 o 0,  se nel sistema decimale abbiamo a disposizione 10 cifre da poter utilizzare per poter formare tutti i numeri che ci servono, in elettronica possiamo contare solo su 2 cifre 0 e 1.</p>      
+        
+     <div id="BannerVideo">
+<script type="text/javascript">
+/* <![CDATA[ */
+document.write('<s'+'cript type="text/javascript" src="http://ad.altervista.org/js.ad/size=300X250/?ref='+encodeURIComponent(location.hostname+location.pathname)+'&r='+new Date().getTime()+'"></s'+'cript>');
+/* ]]> */
+</script>
+</div>
+
+       <p class="testoindex">Nel sistema decimale possiamo iniziare a contare da 0, arrivare fino a 9, prima di essere costretti ad inserire la seconda cifra a formare il 10,  da li possiamo continuare a contare fino a 99 prima di dover ricorrere alla terza cifra a formare 100, e così via.</p>
+
+
+       <p class="testoindex">In elettronica invece  possiamo contare solo da 0 ad 1, dopo di che abbiamo già finito le cifre a nostra disposizione, e siamo costretti ad inserire la seconda cifra per continuare a contare, ottenendo il numero 10, ma da li possiamo solo contare fino ad 11 e poi abbiamo nuovamente finito le cifre, e dobbiamo ricorrere alla terza cifra, a formare il 100 e così via.<br />
+Tale sistema di utilizzare le sole cifre 0 e 1, è conosciuto come sistema binario.</p>
+
+   
+          <p align="center"><img src="Immagini/Binario.png" alt="Image binario" width="648" height="329" /></p>    
+       
+       <p class="testoindex">Sopra  una immagine dei primi 16 numeri, ( da 0 a 15)  in blu rappresentati normalmente con il nostro sistema decimale, e in arancio il rispettivo numero rappresentato nel sistema binario, ovviamente si potranno scrivere infiniti numeri, con infinite sequenze di 1 e 0.</p>
+
+                         
+
+       <p class="testoindex">In elettronica ma forse è più facile che ne abbiate sentito parlare in ambito informatico, quelle che nel sistema decimale vengono chiamate cifre, in elettronica vengono chiamati bit, quindi in elettronica non si parla di cifre 1 e 0, ma di bit 1 e 0.<br />
+In oltre come nel sistema decimale ci sono le unità, costituite da una singola cifra, le decine costituite da 2 cifre, centinaia costituite da 3 cifre e così via, pure in elettronica abbiamo il bit e il Byte, attenzione che quest’ultimo non è costituito da 10 bit come si potrebbe pensare, ma è un numero rappresentato da 8 bit.</p>
+      
+    
+       <p align="center"><img src="Immagini/Byte.png" alt="Byte" width="742" height="366" /></p>
+
+
+
+       <p class="testoindex">Sopra vediamo una serie di Byte, che rappresentano rispettivamente i numeri decimali 1 , 2 , 4  , 8 , 16 , 32 , 64 e 128<br />
+Infine vi è il Byte che rappresenta il numero 100, notate che il byte 100, è semplicemente la somma dei byte  64 + 32 + 4 il cui risultato matematico è proprio 100, in pratica i 3 byte che hanno il corrispondente bit ad 1.</p>
+
+      
+       <p class="testoindex">Ne deriva che il Byte contenente tutti 1 corrisponderà alla somma dei numeri :<br />
+1+2+4+8+16+32+64+128=255 <br />
+Infatti 255 è proprio il numero massimo che si può rappresentare con un Byte, successivi numeri più alti necessitano di utilizzare più di un Byte o comunque più di 8 bit.</p>
+
+         <p class="testoindex">Dopo aver fatto una panoramica sul sistema binario, vediamone una semplice applicazione in ambito elettronico.<br />
+In elettronica esistono molti integrati che utilizzano il sistema binario, ad esempio l’integrato cd4024 è uno dei vari modelli di contatori, o anche divisori di frequenza. </p>
+
+
+
+
+       <p align="center"><img src="Immagini/Cd4024.png" alt="cd4024" width="391" height="282" /></p>
+       
+
+
+
+       <p class="testoindex">Tale integrato è infatti un contatore binario, come tutti gli integrati ha i suoi 2 pin di alimentazione, poi ha un ingresso di reset, un ingresso di clock, e 7 uscite  da Q1 a Q7.<br />
+L’integrato in pratica conta gli impulsi che arrivano sull’ingresso di clock, ad ogni impulso il contatore interno avanza di un unità,  l’ingresso di reset portato a livello alto,  resetta l’integrato, ovvero  azzera il contatore interno, va da se che quindi per contare gli impulsi,  tale ingresso deve stare costantemente basso, ovvero collegato a massa, ed andrà portato a vcc solo quando si desidera azzerare il contatore.<br />
+Adesso veniamo alle uscite, tali uscite rappresentano in binario il contatore interno,
+ovvero la prima uscita Q1 rappresenta il primo bit, l’uscita Q2 il secondo bit, e così via fino alla uscita 7 che rappresenta il settimo bit.</p>
+   
+              
+
+ <div id="BannerArticolo">
+
+<script type="text/javascript">
+/* <![CDATA[ */
+document.write('<s'+'cript type="text/javascript" src="http://ad.altervista.org/js2.ad/size=468X60/?ref='+encodeURIComponent(location.hostname+location.pathname)+'&r='+new Date().getTime()+'"></s'+'cript>');
+/* ]]> */
+</script>
+
+</div>
+
+
+
+       <p class="testoindex">In pratica azzerando il contatore tutte le uscite si portano a zero, rappresentando di fatto il numero zero, al primo impulso l’uscita Q1 si porta alta a rappresentare in binario il numero uno, al secondo impulso l’uscita Q1 si riporta a zero, ma allo stesso tempo si porta a livello alto l’uscita Q2 a rappresentare  il numero 2,  al terzo impulso, si riporta alta l’uscita Q1 che insieme alla Q2 rappresenta in binario il numero 3, e così via fino a quando tutte le uscite saranno a livello alto.</p>
+
+      
+   <p align="center"><img src="Immagini/Binario2.gif" alt="Animazione1" width="531" height="301" /></p>
+       
+
+  <p class="testoindex">Quanto detto è visibile nell’animazione sopra, dove si vede che per ogni impulso di clock, esattamente nel momento in cui l’ingresso clock passa da alto a basso, si verifica l’incremento del contatore, con le  uscite che cambiano il loro stato, a formare il nuovo numero binario.<br />
+Il passaggio da basso a alto dell’ingresso reset, provoca l’immediato azzeramento del contatore interno, con relativo azzeramento di tutte le uscite, a formare lo zero in formato binario.<br />
+Ovviamente dopo 127 impulsi, tutte le uscite saranno a livello uno, a formare appunto il numero binario 127, il successivo impulso farà ricominciare da capo il conteggio, quindi il contatore si porterà a zero, con le relative uscite tutte a livello basso.</p>
+  
+  
+    <p class="testoindex">Prima vi ho parlato di contatore e divisore di frequenza, infatti se guardiamo le uscite singolarmente, ognuna cambia il suo stato, dopo un certo numero di impulsi.<br />
+L’uscita Q1 ad esempio genera 1 impulso, ogni 2 impulsi che arrivano sull’ingresso di clock, l’uscita Q2, invece genera in uscita 1 impulso ogni 4 che entrano nell’ingresso di clock, l’uscita Q3 genera un impulso ogni 8 di clock, e così via.</p>
+    
+    <p align="center"><img src="Immagini/Binario3.gif" alt="Animazione2" width="517" height="293" /></p>
+    
+      <p class="testoindex">L’animazione sopra mostra ad esempio che inviando 16 impulsi sull’ingresso di clock, si possono prelevare 8 impulsi dalla uscita Q1, o ancora 4 impulsi dalla uscita Q2, o ancora 2 impulsi sulla uscita Q3, o un solo impulso sull’uscita Q4.<br />
+In pratica ogni uscita può essere utilizzata come divisore di frequenza o di impulsi, in base allo schema sotto.</p>
+      
+      
+       <p align="center"><img src="Immagini/Divisore.png" alt="Divisore" width="174" height="286" /></p>
+      
+      
+      
+       <p class="testoindex">Come vedete, avere una minima conoscenza del sistema binario, è utile per capire il funzionamento di molti integrati.</p>
+
+
+
+
+     <p class="testoindex">Un brevissimo accenno giusto per informazione, perché servirebbe tutto un capitolo a parte, è l’utilizzo del sistema binario, per trasmettere dati tra dispositivi.<br />
+Per passare dati e quindi byte di in formazioni, tra due dispositivi esistono praticamente 2 sistemi, il sistema in parallelo, e il sistema seriale.</p>
+        
+     <p class="testoindex">Il primo prevede di collegare in parallelo i 2 dispositivi, quindi ad esempio per passare un byte da un dispositivo ed un altro si utilizzeranno 8 linee di trasmissione.<br />
+In questo modo basta che un dispositivo setti i suoi 8 pin a formare il dato in binario, per  passare l’informazione all’altro dispositivo.</p>
+
+                   <p align="center"><img src="Immagini/SerieParallelo.png" alt="serie-parallelo" width="750" height="284" /></p>
+                
+
+     <p class="testoindex">L’altro sistema che praticamente oggi con i sistemi digitali è il più utilizzato, prevede di passare un bit per volta su una sola linea, sincronizzando il passaggio dei bit grazie ad una linea di clock.<br />
+In pratica ogni volta che la linea di clock va a livello alto, viene letto il bit sulla linea di trasmissione, ovvero se quando la linea di clock va a livello alto anche la linea di trasmissione è a livello alto, il dispositivo leggerà il bit=1, viceversa se quando la linea di clock va a livello alto, ma la linea di trasmissione rimane a livello basso, verrà letto un bit=0.</p>
+
+
+
+
+
+
+
+
+ <div id="BannerArticolo">
+
+<script type="text/javascript">
+/* <![CDATA[ */
+document.write('<s'+'cript type="text/javascript" src="http://ad.altervista.org/js2.ad/size=728X90/?ref='+encodeURIComponent(location.hostname+location.pathname)+'&r='+new Date().getTime()+'"></s'+'cript>');
+/* ]]> */
+</script>
+
+</div>
+
+
+</div>
+</div>
+
+<script language="javascript">
+
+function sposta() {
+      document.getElementById('BannerVideo').style.marginLeft = "250px";
+      document.getElementById('BannerVideo').style.marginRight = "250px";     
+}
+ var larghezza = window.screen.width;
+ if  (larghezza<800) {
+sposta();
+}
+</script>
+
+<div id="Footer3">
+
+<div id="privacy">
+<br/>
+<a href="https://www.iubenda.com/privacy-policy/332620" rel="noreferrer nofollow" target="_blank">Privacy Policy</a>
+- <a href="#" role="button" class="iubenda-advertising-preferences-link">Personalizza tracciamento pubblicitario</a>
+<!--<p class="privacy"><a href="/policy.php">Policy Privacy</a> &nbsp;  <a href="http://electronic.altervista.org/contatti.php"> Contatti</a>   -->
+</div>
+
+
+<div id="shinystat">
+<!-- Inizio Codice ShinyStat -->
+<script type="text/javascript" src="http://codice.shinystat.com/cgi-bin/getcod.cgi?USER=electronic"></script>
+<noscript>
+<h6><a href="http://www.shinystat.com/it">
+<img src="http://www.shinystat.com/cgi-bin/shinystat.cgi?USER=electronic" alt="Contatore per sito" style="border:0px" /></a></h6>
+</noscript>
+<!-- Fine Codice ShinyStat -->
+</div>
+
+</div>
+
+
+
+
+<!--Inizio Codice Analytics-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49896938-1', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+
+</script>
+<!-- Fine Codice Analytics -->
+
+
+ 
+
+
+</body>
+</html>
+
+
+
+
+ 
